@@ -11,4 +11,7 @@ class MessageUtilsTest {
     @Test void testGetMessage() {
         assertEquals("Hello      World!", MessageUtils.getMessage());
     }
+    @Test void testMethod() {
+        assertEquals("TEST", MessageUtils.testMethod("TEST"));
+    }
 }

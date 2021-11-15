@@ -7,4 +7,9 @@ class MessageUtils {
     public static String getMessage() {
         return "Hello      World!";
     }
+
+    public static String testMethod (String arg){
+        return arg;
+    }
+
 }
